@@ -1,0 +1,126 @@
+body{
+    background-color:#016570!important;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+.gradient-extension {
+  background: linear-gradient(transparent, #016570, #016570);
+  height: 200px;    
+}
+
+.btn-a{
+    font-size: 3em;
+    padding: 10px 150px;
+    background-color: #0D2526;
+    color: #fbe180;
+    border: none;
+    border-radius: 45px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.offcanvas-body{
+
+  background-color: #0d2526 !important;
+
+}
+
+/* mobile */
+
+@media (max-width: 992px) {
+
+
+#desktopabout{
+
+  display:none;
+}
+
+#thebigcarousel{
+
+  display:none !important;
+}
+
+
+#rasim{
+  display:none;
+}
+
+.mavigation{
+  display: none !important;
+  
+}
+
+#deskport{
+
+  display:none;
+}
+}
+
+/* tablet */
+
+@media (min-width: 993px) and (max-width: 1399px){
+
+  #thesmallcarousel{
+    display: none !important;
+  }
+
+#mobileabout{
+
+  display:none;
+}
+
+  #mobile{
+    display:none;
+    }
+
+  .mavigation{
+    display: none !important;
+  }
+
+  #deskport{
+
+    display:none;
+  }
+}
+
+
+/* desktop */
+
+@media (min-width: 1400px) {
+
+#thesmallcarousel{
+  display: none !important;
+}
+
+#butonport{
+
+  display:none;
+}
+
+  #mobile{
+    display:none;
+    }
+
+    .tabletmobile{
+     display: none !important;
+    }
+
+    #mobileabout{
+
+      display:none;
+    }
+ }

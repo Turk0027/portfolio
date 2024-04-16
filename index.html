@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link  rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>home</title>
+</head>
+<body>
+
+  <header>
+    <a href="#main" class="skip" style="color: #fbe180;">Skip to main content</a>
+    </header>
+
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <!-- Mobile -->
+      <a class="navbar-brand fw-bold" id="mobile" style="font-size: 4rem ;color:#016570;" href="index.html">
+        <img src="image/uxmoodboard.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-center">
+      </a>
+      <!-- Desktop/tablet -->
+      <a class="navbar-brand fw-bold col-sm-8" id="rasim" style="font-size: 4rem ;color:#016570;" href="index.html">
+        <img src="image/uxmoodboard.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-center">
+        RKT Arts
+      </a>
+
+      <!-- Navigation -->
+      <a class="mavigation nav-link nav-item active fs-1 fw-bold" style="color: #016570;" aria-current="page" href="about.html">About</a>
+      <a class="mavigation nav-link nav-item active fs-1 fw-bold" style="color: #016570;" aria-current="page" href="contact.html">Contact</a>
+      <a class="mavigation nav-link nav-item active fs-1 fw-bold" style="color: #016570;" aria-current="page" href="portfolio.html">Portfolio</a>
+      <button class="tabletmobile navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExample" style="height: 100%;">
+      <div class="offcanvas-header">
+        <a class="navbar-brand fw-bold" id="mobile" style="font-size: 4rem ;color:#016570;" href="index.html">
+          <img src="image/uxmoodboard.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-center">
+        </a>
+        <a class="navbar-brand fw-bold col-sm-8" id="rasim" style="font-size: 4rem ;color:#016570;" href="index.html">
+          <img src="image/uxmoodboard.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-center">
+          RKT Arts
+        </a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+      <a class="nav-link nav-item active fs-1 text-center justify-content-center mt-5 pt-5 pb-5 fw-bold" style="color: #fbe180;" aria-current="page" href="about.html">About</a>
+      <a class="nav-link nav-item active fs-1 text-center justify-content-center mt-5 pt-5 pb-5 fw-bold" style="color: #fbe180;" aria-current="page" href="contact.html">Contact</a>
+      <a class="nav-link nav-item active fs-1 text-center justify-content-center mt-5 pt-5 pb-5 fw-bold" style="color: #fbe180;" aria-current="page" href="portfolio.html">Portfolio</a>
+      </div>
+    </div>
+
+
+  </nav>
+
+
+    <div class="d-flex flex-column align-items-center justify-content-center" style="background-image: url(image\\landscapealt.png);background-size: cover;">
+      <div class="d-flex flex-column align-items-center justify-content-center mx-4" style="margin-top:20rem; margin-bottom: 10rem;">
+        <h1 class="fw-bold text-center" style="font-size: 8em;color: #201312;margin-bottom: 20px;">Welcome to my realm!</h1>
+        <p class="fw-bold fs-2 text-center">I can provide you some decent art, graphic design and more!</p>
+        <a href="portfolio.html" class="animate__animated animate__fadeInUp btn-a px-5 py-2" aria-label="My Portfolio">Take a look!</a>
+      </div>
+      <div class="gradient-extension w-100 h-100">
+        <div class="container">
+          <div class="row justify-content-center ">
+            <div class="col-auto mb-3">
+              <button type="button" class="animate__animated animate__fadeInUp btn-a position-relative" style="padding: 150px 300px;border-radius: 15px;">
+              <div class="text-start position-absolute top-0 start-0 m-5 fw-bold">
+                About
+              </div>
+              <div class="position-absolute bottom-0 end-0 m-2">
+                <img src="image/aboutalt.png" alt="about me" style="width: 200px;height: 200px;">
+              </div>
+              </button>
+            </div>
+            <div class="col-auto mb-3">
+              <button type="button" class="animate__animated animate__fadeInUp btn-a position-relative" style="padding: 150px 300px;border-radius: 15px;">
+              <div class="text-start position-absolute top-0 start-0 m-5 fw-bold">
+                Contact
+              </div>
+              <div class="position-absolute bottom-0 end-0 m-2">
+                <img src="image/contactalt.png" alt="Contact me" style="width: 200px;height: 200px;">
+              </div>
+              </button>
+            </div>
+            <div class="col-auto mb-3">
+              <button id="deskport" type="button" class="animate__animated animate__fadeInUp btn-a position-relative" style="padding: 150px 610px;border-radius: 15px;">
+              <div class="text-start position-absolute top-0 start-0 m-5 fw-bold">
+                Portfolio
+              </div>
+              <div class="position-absolute bottom-0 end-0 m-2">
+                <img src="image/portfolioalt.png" alt="My portfolio" style="width: 400px;height: 100px;">
+              </div>
+              </button>
+
+              <button id="butonport" type="button" class="animate__animated animate__fadeInUp btn-a position-relative" style="padding: 150px 300px;border-radius: 15px;">
+                <div class="text-start position-absolute top-0 start-0 m-5 fw-bold">
+                  Portfolio
+                </div>
+                <div class="position-absolute bottom-0 end-0 m-2">
+                  <img src="image/portfolioalt.png" alt="My portfolio" style="width: 400px;height: 100px;">
+                </div>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <main id="main">
+   
+
+    
+    <footer class="animate__animated animate__fadeInUp bg-white text-center text-lg-start mt-5">
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0);">
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
